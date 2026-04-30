@@ -1,0 +1,85 @@
+:root {
+  --teal: #0f4c5c;
+  --dark-teal: #082f33;
+  --gold: #d4af37;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: var(--dark-teal);
+  color: var(--white);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: var(--teal);
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  color: var(--white);
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: var(--gold);
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 50px;
+  gap: 20px;
+}
+
+.card {
+  background: var(--teal);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--teal);
+}
